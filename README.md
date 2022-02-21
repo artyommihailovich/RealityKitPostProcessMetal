@@ -1,5 +1,5 @@
 # RealityKitPostProcessMetal
-### Example Link:
+### Example Link
 https://youtu.be/G_pxPlcFCec
 
 ### Includes filters
