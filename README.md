@@ -2,7 +2,7 @@
 ### Example Link:
 https://youtu.be/G_pxPlcFCec
 
-### Include filters
+### Includes filters
 #### ⦿  Hulium Blue
 #### ⦿ B&W
 #### ⦿ Matrix Color Grade
