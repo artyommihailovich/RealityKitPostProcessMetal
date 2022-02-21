@@ -3,6 +3,6 @@
 https://youtu.be/G_pxPlcFCec
 
 ### Includes filters
-#### ⦿  Hulium Blue
+#### ⦿  Helium Blue
 #### ⦿ B&W
 #### ⦿ Matrix Color Grade
