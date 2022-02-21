@@ -9,17 +9,12 @@
 #include <metal_stdlib>
 using namespace metal;
 
-struct InputArguments {
-    float time;
-};
-
 constant int filterIndex [[function_constant(0)]];
 
 [[kernel]]
 void postProcess(uint2 gid [[thread_position_in_grid]],
                  texture2d<float, access::sample> inputTexture [[texture(0)]],
-                 texture2d<float, access::write> outputTexture [[texture(1)]],
-                 constant InputArguments *args [[buffer(0)]]) {
+                 texture2d<float, access::write> outputTexture [[texture(1)]]) {
     
     if ((gid.x >= inputTexture.get_width()) || (gid.y >= inputTexture.get_height())) {
         return;
